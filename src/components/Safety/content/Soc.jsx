@@ -2,7 +2,7 @@ import React from 'react'
 
 const Soc = () => {
   return (
-    <div className='max-w-4xl mx-auto px-4 py-6 select-none font-ibmPlexMono leading-5'>
+    <div className='max-w-4xl mx-auto px-4 py-6 select-none leading-5'>
     <h2 className="text-2xl font-bold mb-2">
       Statement of Compliance under Rule 3(1) Information Technology (Intermediary Guidelines and Digital Media Ethics Code) Rules, 2021 (Intermediary Guidelines, 2021)
     </h2>
