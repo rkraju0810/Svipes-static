@@ -56,7 +56,7 @@ export default function Footer() {
         <div className="lg:hidden flex space-x-6 text-sm">
           <a href="/Statement-of-Compliance" className="hover:underline">Soc</a>
           <a href="/privacy-policy" className="hover:underline">Privacy Policy</a>
-          <a href="#/" className="hover:underline">Terms of use</a>
+          <a href="/terms-of-use" className="hover:underline">Terms of use</a>
         </div>
 
         <div className="text-xs whitespace-nowrap">
