@@ -24,7 +24,7 @@ import logo from '../../../public/image/logo1.png';
 export default function Footer() {
   return (
 
-    <div className="bg-black text-white p-6 py-8 pb-12">
+    <div className="bg-black text-white p-6 py-8 pb-12 font-grobold">
       <div className="block lg:flex justify-between items-center lg:mb-36">
         <div className="flex items-center justify-center gap-2">
           <Image src={org.src} alt="Org Logo" width={80} height={80} className="w-20 h-16" />

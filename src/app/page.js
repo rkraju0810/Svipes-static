@@ -13,7 +13,7 @@ import { Store } from "@/components/Home/Store";
 
 export default function Home() {
   return (
-    <main className="w-full">
+    <main className="w-full font-grobold">
   <Alert />
   <Header />
   <Store />
