@@ -72,7 +72,7 @@ export default function Footer() {
 
 
         <div className="text-sm mt-4 sm:mt-0">
-          <span>Made in ❣️ from a Genz</span>
+          <span>Made in ❣️ from a Genzz</span>
         </div>
       </div>
     </div>
