@@ -1,14 +1,5 @@
 'use client';
 import React from 'react';
-
-import ph from '../../../public/image/phone1.png';
-import girl from '../../../public/image/gimg.png';
-import om from '../../../public/image/omsg.png';
-import tm from '../../../public/image/tmsg.png';
-import ttm from '../../../public/image/hmsg.png';
-import lom from '../../../public/image/lomsg.png';
-import ltm from '../../../public/image/ltmsg.png';
-import lttm from '../../../public/image/lhmsg.png';
 import black from '../../../public/image/svipesblack.png';
 import white from '../../../public/image/svipeswhite.png';
 import al from '../../../public/image/pinkal.svg';
@@ -18,12 +9,28 @@ import qr from '../../../public/image/qr.png';
 function Get() {
   return (
     <div className="flex justify-center items-center h-[47rem] md:h-[50rem] lg:h-[50rem] xl:h-[50rem] w-full bg-black py-7">
+    
+
+      
       <div className="relative pb-96 overflow-hidden  w-full max-w-[97%] h-full bg-gradient-to-b from-pu to-ro rounded-bl-3xl rounded-br-3xl items-center justify-center">
-        <div className='bg-gradient-to-b from-pu z-20 w-full max-w-[100%] absolute left-0 right-0 top-0'>
-          {/* <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 100">
+        {/* <div className='bg-gradient-to-b from-pu z-20 w-full max-w-[100%] absolute left-0 right-0 top-0'>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 100">
             <path fill="#000" d="M0,0 C360,30 1080,45 1440,0 1440,30 L0,100 Z"></path>
-          </svg> */}
-        </div>
+          </svg>
+             
+        </div> */}
+        <div
+            style={{
+              width: '100%',
+              height: '50px',
+              backgroundColor: '#000000',
+              clipPath: 'ellipse(60% 100% at 50% 0% )',
+              marginTop: '-20px',
+              position: 'relative',
+              zIndex: 1,
+            }}
+          ></div>
+     
         <div className="flex flex-col justify-center items-center relative">
           <h1 className="text-5xl py-14 text-center md:text-8xl lg:text-8xl font-bold text-white md:mb-8 w-96 sm:absolute sm:bottom-4 lg:relative lg:top-auto lg:mt-10 mt-[23rem]">
             Let&#39;s<br/> Svipes
