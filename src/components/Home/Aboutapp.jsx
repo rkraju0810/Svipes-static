@@ -113,11 +113,7 @@ export const Aboutapp = () => {
     
       <style>{floatAnimationStyle}</style>
       <div className="h-[95vh] xs:h-[90vh] md:h-[80vh] lg:h-[145vh] xl:h-[125vh] w-full bg-gradient-to-b from-pin to-bl text-white overflow-hidden flex flex-col relative">
-        {/* <div style={{ position: 'relative', overflow: 'visible', height: '100px' }}>
-          <svg className="absolute top-0 left-0 w-full" viewBox="0 0 1440 100">
-            <path fill="#000" fillOpacity="1" d="M0,100 C360,30 1080,30 1440,100 L1440,0 L0,0 Z"></path>
-          </svg>
-        </div> */}
+       
         
 
 

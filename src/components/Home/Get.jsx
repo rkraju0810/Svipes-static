@@ -20,9 +20,9 @@ function Get() {
     <div className="flex justify-center items-center h-[47rem] md:h-[50rem] lg:h-[50rem] xl:h-[50rem] w-full bg-black py-7">
       <div className="relative pb-96 overflow-hidden  w-full max-w-[97%] h-full bg-gradient-to-b from-pu to-ro rounded-bl-3xl rounded-br-3xl items-center justify-center">
         <div className='bg-gradient-to-b from-pu z-20 w-full max-w-[100%] absolute left-0 right-0 top-0'>
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 100">
+          {/* <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 100">
             <path fill="#000" d="M0,0 C360,30 1080,45 1440,0 1440,30 L0,100 Z"></path>
-          </svg>
+          </svg> */}
         </div>
         <div className="flex flex-col justify-center items-center relative">
           <h1 className="text-5xl py-14 text-center md:text-8xl lg:text-8xl font-bold text-white md:mb-8 w-96 sm:absolute sm:bottom-4 lg:relative lg:top-auto lg:mt-10 mt-[23rem]">
