@@ -89,7 +89,7 @@
 //         <div className="relative flex flex-col items-center justify-center w-full pt-16 md:pt-6 pb-20 lg:pb-24 px-4">
 //           <div className='absolute rotate-[15deg] -right-4 lg:right-52 mt-60 lg:mt-96'>
 //             <div className='h-[300px] md:h-[300px] lg:h-[500px] w-[180px] md:w-[200px] lg:w-[350px]'>
-//               <img
+//               <Image
 //                 src={baa.src}
 //                 alt='Baby'
 //                 className='h-full w-full float-Baa'
@@ -98,7 +98,7 @@
 //           </div>
 //           <div className='absolute -rotate-[15deg] -left-9 lg:left-56 mt-60 lg:mt-96'>
 //             <div className='h-[300px] md:h-[300px] lg:h-[500px] w-[180px] md:w-[200px] lg:w-[300px]'>
-//               <img
+//               <Image
 //                 src={sto.src}
 //                 alt='Story'
 //                 className='h-full w-full float-Sto'
@@ -172,14 +172,14 @@ export const Store = () => {
    
       <div className="flex items-center justify-center translate-y-8 xs:translate-y-10 md:translate-y-10 lg:-translate-y-14 gap-16 md:gap-40 lg:gap-80">
         <div className='w-[50%] h-[70%] md:w-[40%] md:h-[40%] lg:w-[18%] lg:h-[18%] transform -rotate-12'>
-          <img
+          <Image
             src={sto.src}
             alt='Story'
             className='h-full w-full float-Sto'
           />
         </div>
         <div className='w-[50%] h-[70%] md:w-[40%] md:h-[40%] lg:w-[20%] lg:h-[20%] transform rotate-12'>
-          <img
+          <Image
             src={baa.src}
             alt='Baby'
             className='h-full w-full float-Baa' />

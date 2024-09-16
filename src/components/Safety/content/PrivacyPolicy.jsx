@@ -1,11 +1,11 @@
-import React from 'react'
+import React from "react"
  
 const PrivacyPolicy = () => {
   return (
-    <div className='max-w-4xl mx-auto px-4 py-6 select-none ibm-plex-mono-regular leading-5'>
+    <div className="max-w-4xl mx-auto px-4 py-6 select-none ibm-plex-mono-regular leading-5">
     <div>
       <h1 className="text-3xl font-bold mb-2">Privacy Policy!</h1>
-      <p className='mb-2'>Welcome to Svipes! At Weboin Technologies Private Limited (&quot;We,&quot; &quot;Us,&quot; or &quot;Our&quot;), your privacy is our priority. This Privacy Policy explains how we handle the information you (&quot;You&quot; or &quot;Your&quot;) share with us when you use Svipes, including our website and mobile apps (collectively referred to as the &quot;Platform&quot;). When you interact with Svipes, we may collect certain information to improve your experience and the services we offer. Rest assured, your data is collected and used solely to enhance and maintain our Platform and to serve you better. By accessing or using Svipes, you agree to our privacy policy. This means you&apos;re okay with how we collect, store, and use your information, as described here.</p>
+      <p className="mb-2">Welcome to Svipes! At Weboin Technologies Private Limited (&quot;We,&quot; &quot;Us,&quot; or &quot;Our&quot;), your privacy is our priority. This Privacy Policy explains how we handle the information you (&quot;You&quot; or &quot;Your&quot;) share with us when you use Svipes, including our website and mobile apps (collectively referred to as the &quot;Platform&quot;). When you interact with Svipes, we may collect certain information to improve your experience and the services we offer. Rest assured, your data is collected and used solely to enhance and maintain our Platform and to serve you better. By accessing or using Svipes, you agree to our privacy policy. This means you&apos;re okay with how we collect, store, and use your information, as described here.</p>
  
       <p className="mb-2">
         This privacy policy is in compliance with the following laws and regulations:
@@ -268,7 +268,7 @@ const PrivacyPolicy = () => {
     You may log in to your account to review, correct, or modify your information. However, you cannot erase your personal information or other data created on the platform. You may request that we delete specific information by contacting us.
   </p>
   <p className="mb-2">
-    We reserve the right to verify your identity and personal information to ensure the accurate delivery of services. We may deny or restrict data changes if it violates another's rights or applicable law.
+    We reserve the right to verify your identity and personal information to ensure the accurate delivery of services. We may deny or restrict data changes if it violates another &apos;s rights or applicable law.
   </p>
 </div>
  

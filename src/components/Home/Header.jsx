@@ -10,6 +10,7 @@ import Slayqueen from '../../../public/image/Slayqueen.png';
 import svipes from '../../../public/image/Svipes.png';
 import Vibe from '../../../public/image/Vibe.png';
 import tick from '../../../public/tick.png';
+import Image from 'next/image';
  
  
 const floatAnimationStyle = `
@@ -95,20 +96,20 @@ export default function StickyNav() {
         <div className="w-full max-w-[98%] mx-auto bg-gradient-to-b from-red to-he rounded-tl-3xl rounded-tr-3xl relative overflow-hidden ">
           <div className="relative">
             <div className="float-boy">
-              <img
+              <Image
                 src={boy.src}
                 alt="Description of Image"
                 className="z-10 w-36 lg:w-80 left-14 md:left-12 top-28 md:top-32 lg:top-40 rounded-[50px] border-4 md:border-8 border-amber-300 absolute -rotate-12"
               />
             </div>
             <div className="float-lady">
-              <img
+              <Image
                 src={lady.src}
                 alt="Description of Image"
                 className="z-0 w-36 lg:w-60 right-12 md:right-20 lg:right-36 top-32 md:top-32 lg:top-48 rounded-[50px] border-4 md:border-8 border-amber-300 absolute rotate-12"
               />
             </div>
-            <img
+            <Image
               src={Goat.src}
               alt="goat"
               className="z-20 absolute w-20 md:w-32 left-32 md:left-36 lg:left-72 top-[90px] md:top-12"
@@ -118,7 +119,7 @@ export default function StickyNav() {
                   : 'none',
               }}
             />
-            <img
+            <Image
               src={Vibe.src}
               alt="vibe"
               className="absolute w-20 md:w-28 right-64 md:right-32 lg:right-72 top-[330px] md:top-12 lg:top-24"
@@ -128,7 +129,7 @@ export default function StickyNav() {
                   : 'none',
               }}
             />
-            <img
+            <Image
               src={Glowup.src}
               alt="glowup"
               className="absolute w-20 md:w-36 right-4 md:left-12 lg:left-20 top-[520px] md:top-[326px] lg:top-[526px]"
@@ -138,7 +139,7 @@ export default function StickyNav() {
                   : 'none',
               }}
             />
-            <img
+            <Image
               src={Slayqueen.src}
               alt="Slayqueen"
               className="absolute w-24 md:w-40 right-20 md:right-20 lg:right-36 top-[270px] md:top-[346px] lg:top-[506px]"
@@ -151,7 +152,7 @@ export default function StickyNav() {
           </div>
  
           <div className="flex flex-col items-center pt-10 md:pt-14">
-            <img src={svipes.src} alt="svipes" className="w-20 md:w-60 lg:w-28" />
+            <Image src={svipes.src} alt="svipes" className="w-20 md:w-60 lg:w-28" />
           </div>
  
           <h1 className="w-11/12 md:w-60 lg:w-6/12 text-center mx-auto text-3xl md:text-3xl lg:text-7xl text-white pt-[300px] sm:pt-72 md:pt-14">
@@ -195,8 +196,8 @@ export default function StickyNav() {
        
  
           {/* <div className="text-center mt-12 pb-10 md:hidden flex justify-center space-x-4">
-            <img src={ap.src} alt="Apple Logo" className="w-auto h-auto" />
-            <img src={al.src} alt="Android Logo" className="w-auto h-auto" />
+            <Image src={ap.src} alt="Apple Logo" className="w-auto h-auto" />
+            <Image src={al.src} alt="Android Logo" className="w-auto h-auto" />
           </div> */}
  
           <div
@@ -230,7 +231,7 @@ export default function StickyNav() {
       isOk &&  
       <div className='bg-[#00000090] w-screen h-full fixed flex items-center justify-center top-0 left-0 bottom-0 right-0 z-50' >
       <div className='bg-white w-[30vw] h-[45vh] rounded-lg flex flex-col items-center justify-center px-5 gap-3'>
-        <img src={tick.src} alt="tick" className='h-20 w-20'/>
+        <Image src={tick.src} alt="tick" className='h-20 w-20'/>
         <h4 className='text-black'>We will notify you when we are live!</h4>
         <button className='w-full text-black bg-white py-2 rounded-lg border-[1px] border-b-[3px] border-r-[3px] border-black text-stroke' onClick={()=>setIsok(false)}>OK</button>
     </div>

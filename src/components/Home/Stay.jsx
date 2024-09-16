@@ -3,6 +3,7 @@ import shic from '../../../public/image/shinchan.svg';
 import bo from '../../../public/image/sponshbob.svg';
 import ki from '../../../public/image/kick.svg';
 import m from '../../../public/image/minion.svg';
+import Image from 'next/image';
 
 // Inline CSS for smooth floating animation
 const floatAnimationStyle = `
@@ -43,7 +44,7 @@ export const Stay = () => {
             className='-mt-80 -ml-36 lg:-ml-5 md:-mt-10'
             style={{ animation: 'float 8s ease-in-out infinite' }} // Duration for first card
           >
-            <img src={shic.src} alt='shic'
+            <Image src={shic.src} alt='shic'
               className='rotate-12 rounded-3xl h-28 lg:h-40 w-28 lg:w-40' />
             <h3 className='text-xs lg:text-base text-white py-3 -rotate-12 lg:ml-5 lg:pt-5'>amaithi_amaithi</h3>
           </div>
@@ -52,7 +53,7 @@ export const Stay = () => {
             className='-mt-64 -mr-44 lg:-mr-4 md:-mt-20'
             style={{ animation: 'float 12s ease-in-out infinite' }} // Duration for second card
           >
-            <img src={m.src} alt='m'
+            <Image src={m.src} alt='m'
               className='rounded-3xl -rotate-12 h-28 lg:h-40 w-28 lg:w-40' />
             <h3 className='text-white text-xs lg:text-base py-3 rotate-6 lg:ml-8 lg:pt-5'>my_last_braincell</h3>
           </div>
@@ -63,7 +64,7 @@ export const Stay = () => {
             className=''
             style={{ animation: 'float 10s ease-in-out infinite' }} // Duration for third card
           >
-            <img src={bo.src} alt='bo'
+            <Image src={bo.src} alt='bo'
               className='rounded-3xl h-28 lg:h-40 w-28 lg:w-40 mt-10 md:mt-0' />
             <h3 className='text-white text-xs lg:text-base py-3 rotate-12 lg:-ml-6'>ghosted_again</h3>
           </div>
@@ -71,7 +72,7 @@ export const Stay = () => {
             className='rotate-6'
             style={{ animation: 'float 6s ease-in-out infinite' }} // Duration for fourth card
           >
-            <img src={ki.src} alt='ki'
+            <Image src={ki.src} alt='ki'
               className='rounded-3xl rotate-3 h-28 lg:h-40 w-28 lg:w-40 mt-28 md:mt-0' />
             <h3 className='text-white text-xs lg:text-base py-3 -rotate-3'>unfollow_me_plz</h3>
           </div>

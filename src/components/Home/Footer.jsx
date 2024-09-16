@@ -26,7 +26,7 @@ export default function Footer() {
         
           <Image src={org.src} alt="Org Logo" width={80} height={80} className="w-20 h-16" />
           <div className="flex flex-col justify-center">
-            <img src={svipes.src} alt="svipes" className="w-20 md:w-28 lg:w-28" />
+            <Image src={svipes.src} alt="svipes" className="w-20 md:w-28 lg:w-28" />
             <span className='text-base'>its Your day!</span>
             </div>
         </div>
