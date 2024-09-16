@@ -112,66 +112,51 @@ export const Aboutapp = () => {
 ></div>
     
       <style>{floatAnimationStyle}</style>
-      <div className="h-[95vh] xs:h-[90vh] md:h-[80vh] lg:h-[145vh] xl:h-[125vh] w-full bg-gradient-to-b from-pin to-bl text-white overflow-hidden flex flex-col relative">
-       
-        
-
-
-
-
-        <div className="">
-          <h1 className="text-2xl lg:text-7xl font-bold mb-2 -pt-27 lg:pt-20 lg:mb-1 text-center flex flex-col md:flex-row items-center justify-center">
-            Get Dank & Some Love
-          </h1>
-
-          <div className="relative flex flex-col items-center justify-center">
-            <div className="absolute top-14 right-8 sm:top-4 sm:right-5 md:top-9 md:right-32 lg:top-14 lg:right-60 transform rotate-6 w-40 sm:w-48 md:w-72">
-              <img
-                ref={el => imagesRef.current[0] = el}
-                src={c2.src}
-                alt="pink G"
-                className={`w-full float-c2 fade-in ${isVisible[0] ? 'visible delay-1' : ''}`}
-              />
-            </div>
-            <div className="absolute top-52 left-10 sm:top-40 sm:left-10 md:top-60 md:left-32 lg:top-20 lg:left-80 transform rotate-3 w-40 sm:w-44 md:w-72">
-              <img
-                ref={el => imagesRef.current[1] = el}
-                src={c1.src}
-                alt="blue"
-                className={`w-full float-c1 fade-in ${isVisible[1] ? 'visible delay-2' : ''}`}
-              />
-            </div>
-            <div className="absolute top-20 -left-2 md:top-6 md:-left-2 lg:top-[400px] lg:left-32 transform -rotate-3 w-40 sm:w-48 md:w-72">
-              <img
-                ref={el => imagesRef.current[2] = el}
-                src={c3.src}
-                alt="red G"
-                className={`w-full float-c3 fade-in ${isVisible[2] ? 'visible delay-3' : ''}`}
-              />
-            </div>
-            <div className="absolute top-52 -right-2 md:top-60 md:-right-2 lg:top-[330px] lg:right-32 transform -rotate-3 w-40 sm:w-48 md:w-72">
-              <img
-                ref={el => imagesRef.current[3] = el}
-                src={c4.src}
-                alt="blue G"
-                className={`w-full float-c4 fade-in ${isVisible[3] ? 'visible delay-4' : ''}`}
-              />
-            </div>
-          </div>
-
-           <div className="z-50 absolute bottom-2 md:bottom-11 lg:bottom-1 flex justify-center items-end w-full">
-            <img
-              src={ph.src}
-              alt="Mobile Mockup"
-              className="rounded-lg shadow-lg w-[60%] md:w-[40%] lg:w-[25%]"
-            />
-          </div> 
-          
-        </div>
-
-      
-  
-      </div>
+      <div className=" h-[122vh] xs:h-[94vh] lg:h-[150vh] w-full bg-gradient-to-b from-pink-600 to-amber-500 text-white overflow-hidden flex flex-col relative">
+  <div className="">
+    {/* Heading */}
+    <h1 className="text-5xl lg:text-7xl font-bold mb-10 pt-20 lg:mb-1 text-center flex flex-col md:flex-row items-center justify-center">
+      Get Dank<span>&</span><span>Some Love</span>
+    </h1>
+ 
+    {/* Cards */}
+ 
+ 
+ 
+    <div className="relative flex flex-col items-center justify-center">
+  {/* Card 1 - Top Left */}
+  <div className="absolute top-2 right-8 sm:top-4 sm:right-5 md:top-9 md:right-32 lg:top-14 lg:right-60 transform rotate-6 w-40 sm:w-48 md:w-72">
+    <img src={c2.src} alt="pink G" className="rounded-lg shadow-lg w-full" />
+  </div>
+ 
+  {/* Card 2 - Top Middle */}
+  <div className="absolute top-40 left-10 sm:top-40 sm:left-10 md:top-60 md:left-32 lg:top-20 lg:left-80 transform rotate-3 w-40 sm:w-44 md:w-72">
+    <img src={c1.src} alt="blue" className="rounded-lg shadow-lg w-full" />
+  </div>
+ 
+  {/* Card 3 - Bottom Left */}
+  <div className="absolute top-6 -left-2 md:top-6 md:-left-2 lg:top-[400px] lg:left-32 transform -rotate-3 w-40  sm:w-48 md:w-72">
+    <img src={c3.src} alt="red G" className="rounded-lg shadow-lg w-full" />
+  </div>
+ 
+ 
+  {/* Card 4 - Bottom Right */}
+  <div className="absolute top-40 -right-2 md:top-60 md:-right-2 lg:top-[350px] lg:right-32 transform -rotate-3 w-40 sm:w-48 md:w-72">
+    <img src={c4.src} alt="blue G" className="rounded-lg shadow-lg w-full" />
+  </div>
+</div>
+ 
+ 
+    {/* Phone image */}
+    <div className="absolute -bottom-4 md:-bottom-4 lg:-bottom-4 flex justify-center items-end w-full">
+      <img
+        src={ph.src}
+        alt="Mobile Mockup"
+        className="rounded-lg shadow-lg w-[60%] md:w-[40%] lg:w-[25%]"
+      />
+    </div>
+  </div>
+</div>
       <div
             style={{
               width: '100%',
