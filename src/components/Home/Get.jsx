@@ -55,7 +55,7 @@ function Get() {
 
           <div className='absolute -left-9 md:left-0 lg:-left-32 rotate-[25deg] lg:rotate-[20deg] top-12 lg:top-32 z-10'>
             <div className='h-[310px] md:h-[610px] lg:h-[950px] w-[200px] md:w-[330px] lg:w-[450px] rounded-[50px]'>
-              <img src={black.src} className='' />
+              <img src={black.src} alt='black' />
             </div>
           </div>
 
@@ -94,7 +94,7 @@ function Get() {
 
 <div className='absolute -right-12 md:right-0 lg:-right-36 -rotate-[22deg] top-12 lg:top-20'>
             <div className='h-[310px] md:h-[610px] lg:h-[950px] w-[200px] md:w-[330px] lg:w-[450px] rounded-[50px]'>
-              <img src={white.src} className='' />
+              <img src={white.src} alt='white'/>
             </div>
           </div>
 

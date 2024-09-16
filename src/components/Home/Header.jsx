@@ -230,7 +230,7 @@ export default function StickyNav() {
       isOk &&  
       <div className='bg-[#00000090] w-screen h-full fixed flex items-center justify-center top-0 left-0 bottom-0 right-0 z-50' >
       <div className='bg-white w-[30vw] h-[45vh] rounded-lg flex flex-col items-center justify-center px-5 gap-3'>
-        <img src={tick.src} alt="" className='h-20 w-20'/>
+        <img src={tick.src} alt="tick" className='h-20 w-20'/>
         <h4 className='text-black'>We will notify you when we are live!</h4>
         <button className='w-full text-black bg-white py-2 rounded-lg border-[1px] border-b-[3px] border-r-[3px] border-black text-stroke' onClick={()=>setIsok(false)}>OK</button>
     </div>
