@@ -44,8 +44,8 @@ export const Stay = () => {
             style={{ animation: 'float 8s ease-in-out infinite' }} // Duration for first card
           >
             <img src={shic.src}
-              className='rotate-12 rounded-3xl  h-28 lg:h-40 w-28 lg:w-40' />
-            <h3 className='text-xs lg:text-base text-white py-3 -rotate-12  lg:ml-5 lg:pt-5'>amaithi_amaithi</h3>
+              className='rotate-12 rounded-3xl h-28 lg:h-40 w-28 lg:w-40' />
+            <h3 className='text-xs lg:text-base text-white py-3 -rotate-12 lg:ml-5 lg:pt-5'>amaithi_amaithi</h3>
           </div>
 
           <div
@@ -54,7 +54,7 @@ export const Stay = () => {
           >
             <img src={m.src}
               className='rounded-3xl -rotate-12 h-28 lg:h-40 w-28 lg:w-40' />
-            <h3 className=' text-white text-xs lg:text-base py-3 rotate-6 lg:ml-8 lg:pt-5'>my_last_braincell</h3>
+            <h3 className='text-white text-xs lg:text-base py-3 rotate-6 lg:ml-8 lg:pt-5'>my_last_braincell</h3>
           </div>
         </div>
 

@@ -1,4 +1,4 @@
-import { Aboutapp } from "@/components/Home/Aboutapp";
+import Aboutapp  from "@/components/Home/Aboutapp";
 import { Alert } from "@/components/Home/Alert";
 import Footer from "@/components/Home/Footer";
 import Get from "@/components/Home/Get";

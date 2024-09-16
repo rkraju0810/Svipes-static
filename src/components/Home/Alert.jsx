@@ -8,18 +8,23 @@ export const Alert = () => {
       <div className='absolute inset-0 pointer-events-none opacity-100'></div>
       <Marquee gradient={false} speed={100} loop={0} className='relative'>
         <h1 className='text-center text-white text-xs sm:text-base'>
-        You re cute af.
+        • You re cute af
 
-        I’m searching for you everywhere • 
+        • I’m searching for you everywhere 
 
-        Can t stop admiring you • 
+        • Can t stop admiring you 
 
-        You re the GOAT •
+        • You re the GOAT 
 
-        You make my day, no cap •
+        • You make my day, no cap 
 
-          We recently secured $1.6 million in funding. Read more.
+        • You have a fire smile  
 
+        • You’re straight up awesome
+
+        • You’re a whole vibe 
+
+        • You slay 24/7
         
 
         </h1>

@@ -1,11 +1,7 @@
 'use client'
-import React from 'react';
 import Image from 'next/image';
-import org from '../../../public/image/orglogo.png';
-import insta from '../../../public/image/insta.png';
-import twitter from '../../../public/image/twitter.png';
-import linkedin from '../../../public/image/linkedin.png';
-import logo from '../../../public/image/logo1.png';
+import org from '../../../public/image/sv.png';
+import svipes from '../../../public/image/Svipes.png';
 
 // const footerContent = {
 //   title: {
@@ -27,15 +23,16 @@ export default function Footer() {
     <div className="bg-black text-white p-6 py-8 pb-12">
       <div className="block lg:flex justify-between items-center lg:mb-36">
         <div className="flex items-center justify-center gap-2">
+        
           <Image src={org.src} alt="Org Logo" width={80} height={80} className="w-20 h-16" />
-          <h1 className="text-4xl flex flex-col justify-center">
-            svipes
+          <div className="flex flex-col justify-center">
+            <img src={svipes.src} alt="svipes" className="w-20 md:w-28 lg:w-28" />
             <span className='text-base'>its Your day!</span>
-          </h1>
+            </div>
         </div>
        
           <div className="lg:flex lg:flex-row lg:items-center  justify-center lg:gap-10 inline-flex flex-col-reverse gap-4 w-48 ml-5 xs:ml-8 md:ml-32 pro:ml-60 lg:ml-0 xs:w-56 md:w-96 my-10 lg:my-0">
-            <a href="/safety/our-approach-to-safety" className="hover:underline text-lg md:text-3xl">
+            <a href="/safety" className="hover:underline text-lg md:text-3xl">
               Safety
             </a>
             <a href="#" className="hover:underline text-lg md:text-3xl ">
@@ -59,8 +56,8 @@ export default function Footer() {
           <a href="/terms-of-use" className="hover:underline">Terms of use</a>
         </div>
 
-        <div className="text-xs whitespace-nowrap">
-          <a href="mailto:press@nglapp.com" className='w-full'>Copyright | Weboin Technologies Private Limited ©️ 2024</a>
+        <div className="text-[10px] sm:flex md:whitespace-nowrap ibm-plex-mono-regular">
+          <a href="" className='w-full'>Copyright | Weboin Technologies Private Limited ©️ 2024</a>
         </div>
 
 
@@ -71,7 +68,7 @@ export default function Footer() {
         </div>
 
 
-        <div className="text-sm mt-4 sm:mt-0">
+        <div className="text-sm mt-4 sm:mt-0 ibm-plex-mono-regular">
           <span>Made in ❣️ from a Genz</span>
         </div>
       </div>
